@@ -1,0 +1,14 @@
+@import 'animate.css';
+
+$bg-primary: #14213D;
+$bg-secondary: #000;
+$txt-primary: #E5E5E5;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/Montserrat.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'sourcesans3';
+  src: url('../public/fonts/sourcesans3.ttf') format('truetype');
+}
