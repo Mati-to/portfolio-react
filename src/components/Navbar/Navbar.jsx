@@ -22,7 +22,7 @@ function Navbar() {
         <NavLink to='/about-me' exact='true' activeclassname='true' className='link'>
           About Me
         </NavLink>
-        <NavLink to='/about-me' exact='true' activeclassname='true' className='link'>
+        <NavLink to='/contact' exact='true' activeclassname='true' className='link'>
           Contact
         </NavLink>
       </nav>
