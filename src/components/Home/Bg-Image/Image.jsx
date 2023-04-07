@@ -1,4 +1,4 @@
-import bgImage from '../../../../public/images/bg-image.png'
+import bgImage from '../../../assets/images/bg-image.png'
 import './index.scss'
 
 function Image() {

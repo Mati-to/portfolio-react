@@ -1,8 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faFolderOpen, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import Logo from '../../../public/images/matito-logo.png'
+import Logo from '../../assets/images/matito-logo.png'
 
 function Navbar() {
   return (
