@@ -11,7 +11,7 @@
   justify-content: flex-start;
 
 	h1 {
-		font-size: 2rem;
+		font-size: 3rem;
     width: 100%;
 		letter-spacing: 0.125rem;
 		margin-bottom: 15px;
@@ -24,6 +24,11 @@
 		background-clip: inherit;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+
+	p {
+		font-size: 1.125rem;
+		margin-bottom: 5px;
 	}
 }
 

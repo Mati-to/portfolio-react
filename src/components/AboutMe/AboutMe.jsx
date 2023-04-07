@@ -8,7 +8,7 @@ function AboutMe() {
         <h1>About Me</h1>
         <p>Hello there! My name is Matías Alfaro. I've always had a passion for technology,
           especially computers, since I was a child.
-          After graduating as a speech therapist, I discovered
+          After graduating and working as a speech therapist, I discovered
           the world of web development in 2022 and realized that it was my true calling. I made the brave
           decision to change my profession and pursue something that I truly enjoy.
         </p>
@@ -17,7 +17,7 @@ function AboutMe() {
           I am excited about what the future holds and
           am eager to continue growing in this field.
         </p>
-        <p>These are the technologies and frameworks that I have learned and worked with:</p>
+        <p>These are some of the technologies and frameworks that I have learned and worked with:</p>
         <ul className='list'>
           <li>HTML/CSS</li>
           <li>Javascript</li>
