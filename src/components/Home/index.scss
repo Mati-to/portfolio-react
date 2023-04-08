@@ -11,7 +11,7 @@
 		font-family: 'Montserrat', 'sans-serif';
 		position: absolute;
 
-		h1 {
+		.home-title {
 			font-size: 5rem;
 			letter-spacing: 0.125rem;
 			text-indent: -7px;
@@ -26,7 +26,7 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
-		h2 {
+		.home-sub {
 			margin: 0;
 			padding: 0;
       letter-spacing: 4px;
@@ -46,7 +46,7 @@
 	}
 }
 
-ul {
+.home-list {
 	display: flex;
 	list-style: none;
 	gap: 15px;

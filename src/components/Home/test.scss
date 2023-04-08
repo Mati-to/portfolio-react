@@ -1,0 +1,142 @@
+.homepage {
+	&--container {
+		max-width: 100%;
+		display: flex;
+	}
+
+	&--header {
+		width: 50%;
+		margin-left: 50px;
+		margin-right: 20px;
+		font-family: 'Montserrat', 'sans-serif';
+
+		.home-title {
+			font-size: 5rem;
+			letter-spacing: 0.125rem;
+			text-indent: -7px;
+			margin-top: 100px;
+			margin-bottom: 15px;
+			background: linear-gradient(
+				90deg,
+				rgba(252, 163, 17, 1) 30%,
+				rgba(159, 28, 187, 1) 100%
+			);
+			background-clip: inherit;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.home-sub {
+			margin: 0;
+			padding: 0;
+			letter-spacing: 4px;
+			opacity: 0.8;
+			text-indent: -2px;
+		}
+	}
+}
+
+.social-link {
+	color: #e5e5e5;
+	opacity: 0.8;
+	font-size: 1.125rem;
+
+	&:hover {
+		color: #fca311;
+	}
+}
+
+.home-list {
+	display: flex;
+	list-style: none;
+	gap: 15px;
+	font-size: 20px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.contact-button {
+	text-decoration: none;
+	color: #e5e5e5;
+	padding-bottom: 5px;
+	font-size: 1rem;
+	font-weight: 500;
+	align-self: flex-end;
+	opacity: 0.8;
+
+	&:hover {
+		color: #fca311;
+	}
+}
+
+// HOME BACKGROUND IMAGE
+.home-image {
+	width: 900px;
+	height: 600px;
+	background-image: url('../../assets/images/bg-image.png');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	right: -150px;
+	opacity: 0.5;
+	z-index: -1;
+	filter: blur(0.5px);
+	transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+}
+
+.animate__animated.animate__fadeIn {
+	animation-duration: 5s;
+}
+
+// MEDIA QUERIES
+@media (max-width: 830px) {
+	.homepage--header .home-title {
+		font-size: 4rem;
+	}
+
+	.home-image {
+		width: 900px;
+		height: 600px;
+		background-image: url('../../assets/images/home-image2.png');
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		bottom: 0;
+		right: -20px;
+		z-index: -1;
+		filter: blur(0.5px);
+		transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.2s ease-in-out;
+	}
+
+	.homepage--header {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.homepage--header {
+		width: 100%;
+	}
+
+	.home-title {
+		width: 100%;
+	}
+}
+
+@media (min-height: 768px) {
+	.home-image {
+		width: 900px;
+		height: 600px;
+		background-image: url('../../assets/images/home-image2.png');
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+		filter: blur(1px);
+		transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.2s ease-in-out;
+	}
+}

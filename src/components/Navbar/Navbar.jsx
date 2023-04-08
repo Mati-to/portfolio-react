@@ -4,7 +4,7 @@ import Logo from '../../assets/images/matito-logo.png'
 
 function Navbar() {
   return (
-    <div className='navbar'>
+    <div className='navbar--container'>
       <Link
         to='/'
         className='home-logo' >
