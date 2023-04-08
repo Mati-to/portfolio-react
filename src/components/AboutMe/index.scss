@@ -1,9 +1,10 @@
-.can {
-	width: 50px;
+.aboutme--container {
+	display: flex;
+	width: 60%;
 }
 
 .text-container {
-	width: 60%;
+	width: fit-content;
   margin-left: 50px;
   margin-top: 50px;
   display: flex;
@@ -21,7 +22,7 @@
 			rgba(252, 163, 17, 1) 0%,
 			rgba(159, 28, 187, 1) 100%
 		);
-		background-clip: inherit;
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -30,10 +31,6 @@
 		font-size: 1.125rem;
 		margin-bottom: 5px;
 	}
-}
-
-.aboutme--container {
-	display: flex;
 }
 
 .list {
@@ -55,4 +52,8 @@ li:not(:first-child)::before {
 }
 li:first-child::before {
   content: "";
+}
+
+.can {
+	width: 50px;
 }
