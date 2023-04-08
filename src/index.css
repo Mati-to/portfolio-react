@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
 }
 
+
 @media (max-width: 890px) {
   body {
     overflow-y: scroll;
