@@ -8,7 +8,7 @@ function ContactImage() {
     <div className='launch-image-container'>
       <div className='launch-image'></div>
       <h2 className='subtitle animate__animated animate__fadeInUp'>Ready to take your website to the next frontier? Let's work together!</h2>
-      <ul className='animate__animated animate__fadeInUp'>
+      <ul className='contact-list animate__animated animate__fadeInUp'>
         <Link className='link-icons' to='https://www.linkedin.com/in/matías-alfaro-campos-b1990a265'
           target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faLinkedin} />
@@ -17,6 +17,7 @@ function ContactImage() {
           target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faGithub} />
         </Link>
+        <p>matiasalfaro2.a@gmail.com</p>
       </ul>
     </div>
   )

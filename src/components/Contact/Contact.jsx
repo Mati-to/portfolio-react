@@ -21,8 +21,8 @@ function Contact() {
   return (
     <div className='contact--container'>
       <div className='text-container'>
-        <div className='contact-text'>
-          <h1>Contact Me</h1>
+        <div>
+          <h1 className='contact-text'>Contact Me</h1>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>

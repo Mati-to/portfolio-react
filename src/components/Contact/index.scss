@@ -4,7 +4,6 @@
 }
 
 .text-container {
-   
 	form {
 		display: flex;
 		flex-direction: column;
@@ -40,5 +39,31 @@
 				background-color: #701585;
 			}
 		}
+	}
+}
+
+@media (max-width: 1260px) {
+	.contact--container {
+		display: flex;
+	}
+}
+
+@media (max-width: 890px) {
+
+	.contact--container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.text-container {
+			margin: 10px;
+		}
+	}
+}
+
+@media (max-width: 570px) {
+	.contact-text {
+		font-size: 500px;
 	}
 }
