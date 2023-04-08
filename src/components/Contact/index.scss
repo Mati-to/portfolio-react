@@ -1,0 +1,69 @@
+.contact--container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-container {
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		label {
+			font-size: 1.125rem;
+		}
+
+		input,
+		textarea {
+			font-family: 'sourcesans3', 'sans-serif';
+			margin-bottom: 10px;
+			font-size: 0.9rem;
+			padding: 5px;
+			border-radius: 6px;
+			background-color: #e5e5e5;
+		}
+
+		.button {
+			width: 100px;
+			background-color: #9f1cbb;
+			color: #e5e5e5;
+			font-family: 'sourcesans3', 'sans-serif';
+			font-weight: 800;
+			cursor: pointer;
+			transition: all 0.2s ease;
+			border: none;
+			margin-top: 5px;
+			padding: 8px;
+
+			&:hover {
+				background-color: #701585;
+			}
+		}
+	}
+}
+
+@media (max-width: 1260px) {
+	.contact--container {
+		display: flex;
+	}
+}
+
+@media (max-width: 890px) {
+
+	.contact--container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.text-container {
+			margin: 10px;
+		}
+	}
+}
+
+@media (max-width: 570px) {
+	.contact-text {
+		font-size: 500px;
+	}
+}
