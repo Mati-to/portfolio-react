@@ -115,16 +115,6 @@
 	}
 }
 
-@media (max-width: 640px) {
-	.homepage--header {
-		width: 100%;
-	}
-
-	.home-title {
-		width: 100%;
-	}
-}
-
 @media (min-height: 768px) {
 	.home-image {
 		width: 900px;
@@ -138,5 +128,15 @@
 		filter: blur(1px);
 		transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
+	}
+}
+
+@media (max-width: 640px) {
+	.homepage--header {
+		width: 100%;
+	}
+
+	.home-title {
+		width: 100%;
 	}
 }

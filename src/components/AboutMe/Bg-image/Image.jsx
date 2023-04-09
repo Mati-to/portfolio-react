@@ -4,7 +4,7 @@ import bgImage2 from '../../../assets/images/bg-image2.png'
 import react from '../../../assets/images/icons/react-logo.svg'
 import { gsap, Power1 } from 'gsap-trial'
 
-import './index.scss'
+import './about-image.scss'
 
 function ImageAbout() {
   const [mounted, setMounted] = useState(false);
@@ -17,7 +17,7 @@ function ImageAbout() {
     if (mounted) {
       const floatAnimation = () => {
         const tlCan = gsap.timeline({ repeat: -1 });
-        /*Can Animation*/
+        /*Animation*/
         tlCan
           //move top left
           .to('.can > .logo', { duration: 3, y: '-=30', x: '+=20', rotation: '-=5', ease: Power1.easeInOut })
