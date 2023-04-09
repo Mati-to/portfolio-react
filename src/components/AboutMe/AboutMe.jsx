@@ -1,13 +1,14 @@
 import ImageAbout from './Bg-image/Image'
-import './index.scss'
+import './aboutme.scss'
 
 function AboutMe() {
+
   return (
     <div className='aboutme--container'>
-      <div className='text-container'>
-        <h1>About Me</h1>
-        <p>Hello there! My name is Matías Alfaro. I've always had a passion for technology,
-          especially computers, since I was a child.
+      <div className='about-text-container'>
+        <h1 className='about-title'>About Me</h1>
+        <p>Hello there! My name is Matías Alfaro, and I'm a Full-Stack Developer. I've always had a passion for technology,
+          especially computers, but after finishing school, my path diverted to health care.  
           After graduating and working as a speech therapist, I discovered
           the world of web development in 2022 and realized that it was my true calling. I made the brave
           decision to change my profession and pursue something that I truly enjoy.
@@ -18,7 +19,7 @@ function AboutMe() {
           am eager to continue growing in this field.
         </p>
         <p>These are some of the technologies and frameworks that I have learned and worked with:</p>
-        <ul className='list'>
+        <ul className='about-list'>
           <li>HTML/CSS</li>
           <li>Javascript</li>
           <li>React</li>
@@ -26,11 +27,9 @@ function AboutMe() {
           <li>ExpressJs</li>
           <li>MongoDB</li>
         </ul>
-
       </div>
       <div className='image-container'>
         <ImageAbout />
-
       </div>
     </div>
   )

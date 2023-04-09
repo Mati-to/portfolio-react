@@ -1,4 +1,8 @@
 // Images
+.can {
+	width: 100px;
+}
+
 .astronaut-img {
 	width: 200px;
 	position: absolute;
@@ -24,4 +28,17 @@
   z-index: -1;
   opacity: 0.7;
   filter: blur(2px);
+}
+
+// MEDIA QUERIES
+@media (max-width: 1100px) {
+  .astronaut-img {
+    display: none;
+  }
+  .bg-image2 {
+    display: none;
+  }
+  .react-logo {
+    display: none;
+  }
 }

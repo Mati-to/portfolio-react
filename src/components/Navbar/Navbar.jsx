@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
 import Logo from '../../assets/images/matito-logo.png'
+import './navbar.scss'
+
 
 function Navbar() {
   return (
