@@ -1,11 +1,11 @@
 .aboutme--container {
-	max-width: 100%;
+	width: 100%;
 	display: flex;
 }
 
 .about-text-container {
 	width: 60%;
-	padding-left: 50px;
+	margin-left: 50px;
 	display: flex;
 	flex-direction: column;
 
@@ -68,9 +68,8 @@ li:not(:first-child)::before {
 	}
 
 	.about-text-container {
-		width: 100%;
-		padding-left: 20px;
-		padding-right: 20px;
+		width: 80%;
+		margin: 0;
 	}
 
 	.about-list {

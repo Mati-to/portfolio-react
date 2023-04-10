@@ -1,9 +1,32 @@
 .contact--container {
 	display: flex;
 	justify-content: space-between;
+	height: 100vh;
 }
 
 .text-container {
+	width: 100%;
+	display: flex;
+	margin: 0 30px;
+	flex: 1;
+	flex-direction: column;
+
+	.contact-title {
+		font-size: 3rem;
+		width: fit-content;
+		letter-spacing: 0.125rem;
+		margin-bottom: 15px;
+		font-family: 'Montserrat', 'sans-serif';
+		background: linear-gradient(
+			90deg,
+			rgba(252, 163, 17, 1) 0%,
+			rgba(159, 28, 187, 1) 100%
+		);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
 	form {
 		display: flex;
 		flex-direction: column;
@@ -49,21 +72,25 @@
 }
 
 @media (max-width: 890px) {
-
 	.contact--container {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-top: 50px;
 
 		.text-container {
-			margin: 10px;
+			width: 70%;
+			margin: 30px 30px;
 		}
 	}
 }
 
 @media (max-width: 570px) {
+	.contact--container {
+		margin-top: 100px;
+	}
 	.contact-text {
-		font-size: 500px;
+		margin-top: 50px;
 	}
 }

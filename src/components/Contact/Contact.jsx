@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import ContactImage from './Bg-image/ContactImage';
-import './index.scss'
+import './contact.scss'
 
 function Contact() {
 
@@ -21,9 +21,7 @@ function Contact() {
   return (
     <div className='contact--container'>
       <div className='text-container'>
-        <div>
-          <h1 className='contact-text'>Contact Me</h1>
-        </div>
+        <h1 className='contact-title'>Contact Me</h1>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" placeholder='Name' required />
@@ -34,9 +32,7 @@ function Contact() {
           <input className='button' type="submit" value="Send" />
         </form>
       </div>
-      <div className='image--container'>
-        <ContactImage />
-      </div>
+      <ContactImage />
     </div>
   )
 }
