@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './projects.scss'
 
 function Project(props) {
@@ -23,9 +26,10 @@ function Project(props) {
         <h3 className='project-title'>
           <strong>{title}</strong>
         </h3>
-        <p className='project-links'>
-          {links}
-        </p>
+        <Link className='project-links' to={links}
+          target='_blank' rel='noreferrer'>
+          <FontAwesomeIcon icon={faGithub} />
+        </Link>
       </div>
     </div>
   )
