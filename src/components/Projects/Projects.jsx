@@ -33,7 +33,7 @@ function Projects() {
           description='This app allows to track patients therapies, to be more organized about the last activities, 
           evaluations, entry date and more.'
           a='https://fancy-youtiao-271738.netlify.app/'
-          links='https://github.com/Mati-to/pacientes_app'
+          links='https://github.com/Mati-to/slp-followup'
         />
         <Project
           image={portfolio}
