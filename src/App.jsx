@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
-import AboutMe from './components/AboutMe/Aboutme'
+import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
 import './App.scss'
 
