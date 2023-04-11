@@ -25,14 +25,14 @@ function Contact() {
         <h1 className='contact-title'>Contact Me</h1>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
-          <input type="text" name="user_name" placeholder='Name' required />
+          <input type='text' name='user_name' placeholder='Name' required />
           <label>Email</label>
-          <input type="email" name="user_email" placeholder='Email' required />
+          <input type='email' name='user_email' placeholder='Email' required />
           <label>Subject</label>
-          <input type="text" name="subject" placeholder='Subject' required />
+          <input type='text' name='subject' placeholder='Subject' required />
           <label>Message</label>
-          <textarea name="message" rows='5' placeholder='Write here...' required />
-          <input className='button' type="submit" value="Send" />
+          <textarea name='message' rows='5' placeholder='Write here...' required />
+          <input className='button' type='submit' value='Send' />
         </form>
       </div>
       <ContactImage />

@@ -23,7 +23,7 @@ function Header() {
             <Link to={'/contact'} className='contact-button'>Contact Me</Link>
           </ul>
         </div>
-        <img className='home-image animate__animated animate__fadeIn' src={bgImage} alt="" />
+        <img className='home-image animate__animated animate__fadeIn' src={bgImage} alt='' />
       </div>
     </>
   )
