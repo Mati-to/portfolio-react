@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import bgImage from '../../assets/images/bg-image.png'
 import './home.scss'
 
 function Header() {
@@ -22,7 +23,7 @@ function Header() {
             <Link to={'/contact'} className='contact-button'>Contact Me</Link>
           </ul>
         </div>
-        {/* <div className='home-image animate__animated animate__fadeIn'></div> */}
+        <img className='home-image animate__animated animate__fadeIn' src={bgImage} alt="" />
       </div>
     </>
   )

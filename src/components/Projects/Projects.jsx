@@ -1,6 +1,7 @@
-import quotes from '../../assets/images/project-quotes.png'
-import bingo from '../../assets/images/project-bingo.png'
-import patients from '../../assets/images/project-patients.png'
+import quotes from '../../assets/images/projects/project-quotes.png'
+import bingo from '../../assets/images/projects/project-bingo.png'
+import patients from '../../assets/images/projects/project-patients.png'
+import portfolio from '../../assets/images/projects/project-portfolio.png'
 import Project from './Project'
 import './projects.scss'
 
@@ -35,7 +36,7 @@ function Projects() {
           links='https://github.com/Mati-to/pacientes_app'
         />
         <Project
-          image='portfolio'
+          image={portfolio}
           title='Portfolio'
           description="This website you're using right now!"
           links='https://github.com/Mati-to/portfolio-react'
