@@ -1,13 +1,14 @@
-#Portfolio with react
+# Portfolio with react
 
 Now that I'm learning and improving my skills with React and React Router, I take the opportunity to create my portfolio to 
 apply some aspects I've learned. As I mentioned, this app is mainly made with React in conjunction with Vite. For the 
 styling of the website I wanted to experiment with other technologies to deliver a better experience, that's why I used 
 SASS.
-I wanted to apply some animations, therefore for this project I used Animate.css which I used in another project already,
+I wanted to apply some animations, therefore for this project I used Animate.css which I already used in another project,
 and GSAP, a new technology in my repertoire.
 
-###Stack used
+### Stack used
 - HTML/CSS
 - SASS
 - React/React Router
+
