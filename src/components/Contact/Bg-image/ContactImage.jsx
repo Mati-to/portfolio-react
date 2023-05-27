@@ -18,7 +18,7 @@ function ContactImage() {
           target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faGithub} />
         </Link>
-        <p>matiasalfaro2.a@gmail.com</p>
+        <p>matiasalfaro.it@gmail.com</p>
       </ul>
     </div>
   )
