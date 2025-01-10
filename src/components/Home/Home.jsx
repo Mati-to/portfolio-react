@@ -12,7 +12,7 @@ function Header() {
           <h1 className='home-title'>Matias Alfaro</h1>
           <h2 className='home-sub'>Full-Stack Developer</h2>
           <ul className='home-list'>
-            <Link className='social-link' to='https://www.linkedin.com/in/matías-alfaro-campos-b1990a265'
+            <Link className='social-link' to='https://www.linkedin.com/in/matiasalfaroc/'
               target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
