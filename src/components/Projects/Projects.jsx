@@ -1,4 +1,4 @@
-import quotes from '../../assets/images/projects/project-quotes.png'
+import pokemon from '../../assets/images/projects/project-pokemon.png'
 import bingo from '../../assets/images/projects/project-bingo.png'
 import patients from '../../assets/images/projects/project-patients.png'
 import portfolio from '../../assets/images/projects/project-portfolio.png'
@@ -12,12 +12,11 @@ function Projects() {
       <h1 className='projects--container-title'>My Projects</h1>
       <div className='projects-sub'>
         <Project
-          image={quotes}
-          title='Quotes-Generator'
-          description='With one click you will receive a random quote from an important person, accompanied by 
-          his/her image.'
-          a='https://bespoke-mochi-13802c.netlify.app/'
-          links='https://github.com/Mati-to/Quote-generator'
+          image={pokemon}
+          title='Angular Pokemon'
+          description='Search for your favorite Pokémon and mark it as your favorite!'
+          a='https://6519a4bd3749896a54e29649--rococo-fox-bc8858.netlify.app/'
+          links='https://github.com/Mati-to/angular_pokemon'
         />
         <Project
           image={bingo}
