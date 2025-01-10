@@ -20,14 +20,15 @@ function AboutMe() {
         </p>
         <p>These are some of the technologies and frameworks that I have learned and worked with:</p>
         <ul className='about-list'>
-          <li>HTML/CSS</li>
-          <li>SASS</li>
           <li>Javascript</li>
-          <li>React</li>
+          <li>Angular</li>
+          <li>ReactJs</li>
           <li>PHP</li>
+          <li>Python</li>
           <li>Node.Js</li>
           <li>ExpressJs</li>
           <li>MySQL</li>
+          <li>Oracle DB</li>
           <li>MongoDB</li>
         </ul>
       </div>
