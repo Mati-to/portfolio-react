@@ -10,7 +10,7 @@ function ContactImage() {
       <img className='launch-image' src={spaceLaunch} alt='rocket launch' />
       <h2 className='subtitle animate__animated animate__fadeInUp'>Ready to take your website to the next frontier? Let's work together!</h2>
       <ul className='contact-list animate__animated animate__fadeInUp'>
-        <Link className='link-icons' to='https://www.linkedin.com/in/matías-alfaro-campos-b1990a265'
+        <Link className='link-icons' to='https://www.linkedin.com/in/matiasalfaroc/'
           target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faLinkedin} />
         </Link>
